@@ -15,7 +15,7 @@ before_install:
   fi
 # [START auth]
 # Decrypt the credentials we added to the repo using the key we added with the Travis command line tool
-- DECRYPT_COMMAND
+- [YOUR_COMMAND_OUTPUT]
 # If the SDK is not already cached, download it and unpack it
 - if [ ! -d ${HOME}/google-cloud-sdk ]; then
      curl https://sdk.cloud.google.com | bash;
